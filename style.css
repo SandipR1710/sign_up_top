@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:myfont;
+    src: url('norse.bold.otf');
+}
+.left{
+    width:35vw;
+    height: 100vh;
+    background-image: url('neom-_hjZ74lQOls-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.odinlogo{
+    width:60px;
+}
+.main{
+    display: flex;
+}
+.head{
+    width:50%;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color:white;
+    background-color: rgb(24, 24, 24);
+}
+.des{
+    color: yellowgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.midimg{
+    width:100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.otext{
+    font-family:myfont,sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color:white;
+}
+.frm{
+    width:65vw;
+    height: 100vh;
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.mfrm{
+    color:white;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+.first,.second{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+input{
+    height:20px;
+    background-color: rgb(32, 31, 31);
+    border:1px solid yellowgreen;
+    border-radius: 4px;
+    margin:5px 0;
+    color:white;
+}
+.input{
+    height:60px;
+    /* background-color: yellow; */
+}
+/* .input::after{
+    content:"\A wrong";
+    white-space: pre;
+    color:red;
+} */
+/* ::after{
+    content: "*wrong";
+    color:white;
+} */
+.wrong::after{
+    content: "\A Password is not same";
+    white-space: pre;
+    color:red;
+}
+label{
+    text-transform:uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+fieldset{
+    padding: 40px 100px;
+    background-color: black;
+    display: flex;
+    gap:50px;
+    border: 0;
+}
+legend{
+    background-color: yellowgreen;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color:black;
+    border-radius: 5px;
+}
+.btn{
+    border: 0;
+    padding: 5px;
+    width:150px;
+    height:35px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.btn:hover{
+    background-color:rgb(59, 79, 19);
+    color:white;
+    cursor: pointer;
+}
+.btnarea{
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hav{
+    color:white;
+}
+.log{
+    color:yellowgreen;
+}
+.log:hover{
+    color:rgb(59, 79, 19);
+    cursor: pointer;
+}
